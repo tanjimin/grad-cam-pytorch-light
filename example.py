@@ -21,7 +21,7 @@ def boxer_example():
     heatmap_layer = model.layer4[2].conv2
     image = Image.open("./images/cat_dog.png")
     input_tensor = transform(image)
-    boxer_label = 282
+    boxer_label = 242
     image = grad_cam(model, input_tensor, heatmap_layer, boxer_label)
     plt.imshow(image)
     plt.savefig('./images/boxer_grad-cam')
@@ -38,7 +38,7 @@ def tiger_cat_example():
     heatmap_layer = model.layer4[2].conv2
     image = Image.open("./images/cat_dog.png")
     input_tensor = transform(image)
-    tiger_cat_label = 242
+    tiger_cat_label = 282
     image = grad_cam(model, input_tensor, heatmap_layer, tiger_cat_label)
     plt.imshow(image)
     plt.savefig('./images/tiger_cat_grad-cam')
