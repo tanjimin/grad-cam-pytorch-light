@@ -21,8 +21,12 @@ See `example.py` for examples.
 
 'Boxer' label and 'Tiger Cat' label for the same image:
 
-![Boxer](./images/boxer_grad-cam.png) ![Tiger Cat](./images/tiger_cat_grad-cam.png) 
+|Boxer|Tiger Cat|
+| :------: | :------: |
+|![Boxer](./images/boxer_grad-cam.png)|![Tiger Cat](./images/tiger_cat_grad-cam.png)|
 
 'African elephant, Loxodonta africana' label for an image containing an elephant:
 
-![Elephant](./images/elephant_grad-cam.png)
+|African elephant, Loxodonta africana|
+| :------: |
+|![Elephant](./images/elephant_grad-cam.png)|
